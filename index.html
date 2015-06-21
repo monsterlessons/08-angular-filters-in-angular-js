@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" ng-app='app'>
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.5/angular.min.js"></script>
+  <script src="main.js"></script>
+</head>
+<body>
+  <div ng-controller="mainCtrl">
+    {{money1 | moneyFilter}}
+    {{money2 | moneyFilter}}
+    {{money3 | moneyFilter}}
+  </div>
+</body>
+</html>
